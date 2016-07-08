@@ -4,6 +4,8 @@
 
 这是一个话题聊天程序。选择主话题后，在聊天的过程中，如果觉得某句话值得深聊，可以点击生成子话题，然后在子话题出继续聊，达到分组效果
 
+![image](https://github.com/mcwz/topicshow/blob/master/screenShot.jpg)
+
 ## requirement
 
 PHP 5.6+
