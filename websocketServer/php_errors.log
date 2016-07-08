@@ -1,0 +1,69 @@
+[11-Jun-2016 08:08:26 PRC] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 5
+[11-Jun-2016 08:17:50 PRC] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 5
+[11-Jun-2016 08:26:25 PRC] PHP Parse error:  syntax error, unexpected '/', expecting ',' or ';' in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 5
+[11-Jun-2016 08:27:56 PRC] PHP Fatal error:  Class 'connector\MongoDB\Driver\Manager' not found in /home/www/workspace/websocketServer/connector/Mongo.php on line 9
+[11-Jun-2016 08:35:04 PRC] PHP Fatal error:  Class 'connector\MongoDB\Driver\Manager' not found in /home/www/workspace/websocketServer/connector/Mongo.php on line 9
+[11-Jun-2016 08:36:09 PRC] PHP Fatal error:  Class 'connector\MongoDB\Driver\Manager' not found in /home/www/workspace/websocketServer/connector/Mongo.php on line 9
+[12-Jun-2016 10:27:15 PRC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 18
+[12-Jun-2016 10:27:29 PRC] PHP Parse error:  syntax error, unexpected '$path' (T_VARIABLE) in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 18
+[12-Jun-2016 10:28:02 PRC] PHP Fatal error:  Call to undefined method swoole_http_request::cookie() in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 18
+[12-Jun-2016 10:28:04 PRC] PHP Fatal error:  Call to undefined method swoole_http_request::cookie() in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 18
+[12-Jun-2016 10:31:06 PRC] PHP Fatal error:  Call to undefined method swoole_http_request::cookie() in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 18
+[12-Jun-2016 16:35:44 PRC] PHP Notice:  Undefined variable: _SESSION in /home/www/workspace/websocketServer/controllers/A.php on line 6
+[14-Jun-2016 10:20:53 PRC] PHP Fatal error:  Class 'connector\RedisConn' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 19
+[14-Jun-2016 10:24:38 PRC] PHP Parse error:  syntax error, unexpected '"fd-"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /home/www/workspace/websocketServer/connector/RedisConn.php on line 35
+[14-Jun-2016 10:25:24 PRC] PHP Fatal error:  Class 'connector\redis' not found in /home/www/workspace/websocketServer/connector/RedisConn.php on line 11
+[14-Jun-2016 10:29:22 PRC] PHP Notice:  Undefined variable: redis in /home/www/workspace/websocketServer/connector/RedisConn.php on line 37
+[14-Jun-2016 10:29:22 PRC] PHP Fatal error:  Call to a member function get() on null in /home/www/workspace/websocketServer/connector/RedisConn.php on line 37
+[14-Jun-2016 10:33:42 PRC] PHP Notice:  Undefined variable: fd in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 56
+[14-Jun-2016 10:34:04 PRC] PHP Notice:  Undefined variable: fd in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 56
+[14-Jun-2016 10:38:30 PRC] PHP Notice:  Undefined variable: frame in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 10:38:30 PRC] PHP Notice:  Trying to get property of non-object in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 10:38:30 PRC] PHP Warning:  swoole_websocket_server::push(): fd[0] is invalid. in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 10:38:38 PRC] PHP Notice:  Undefined variable: frame in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 10:38:38 PRC] PHP Notice:  Trying to get property of non-object in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 10:38:38 PRC] PHP Warning:  swoole_websocket_server::push(): fd[0] is invalid. in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 34
+[14-Jun-2016 14:21:13 PRC] PHP Fatal error:  Class 'core\ControllerBase' not found in /home/www/workspace/websocketServer/controllers/A.php on line 7
+[14-Jun-2016 14:29:37 PRC] PHP Fatal error:  Class 'A' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 133
+[14-Jun-2016 14:31:50 PRC] PHP Fatal error:  Class 'A' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 134
+[14-Jun-2016 14:42:43 PRC] PHP Fatal error:  Class 'A' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 134
+[14-Jun-2016 14:43:46 PRC] PHP Fatal error:  Class 'A' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 135
+[14-Jun-2016 14:44:46 PRC] PHP Notice:  Undefined index: count in /home/www/workspace/websocketServer/controllers/A.php on line 10
+[14-Jun-2016 14:50:26 PRC] PHP Parse error:  syntax error, unexpected '$class' (T_VARIABLE), expecting identifier (T_STRING) in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 135
+[14-Jun-2016 14:54:38 PRC] PHP Notice:  Undefined index: count in /home/www/workspace/websocketServer/controllers/A.php on line 10
+[14-Jun-2016 14:55:28 PRC] PHP Notice:  Undefined index: count in /home/www/workspace/websocketServer/controllers/A.php on line 10
+[14-Jun-2016 15:01:41 PRC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/www/workspace/websocketServer/controllers/A.php on line 11
+[14-Jun-2016 15:02:20 PRC] PHP Warning:  Missing argument 1 for connector\RedisConn::session(), called in /home/www/workspace/websocketServer/controllers/A.php on line 11 and defined in /home/www/workspace/websocketServer/connector/RedisConn.php on line 40
+[14-Jun-2016 15:02:20 PRC] PHP Notice:  Undefined variable: fd in /home/www/workspace/websocketServer/connector/RedisConn.php on line 42
+[14-Jun-2016 15:02:20 PRC] PHP Notice:  Undefined index: count in /home/www/workspace/websocketServer/controllers/A.php on line 12
+[14-Jun-2016 15:16:10 PRC] PHP Parse error:  syntax error, unexpected ')' in /home/www/workspace/websocketServer/connector/RedisConn.php on line 47
+[14-Jun-2016 15:17:17 PRC] PHP Parse error:  syntax error, unexpected '$session' (T_VARIABLE) in /home/www/workspace/websocketServer/controllers/A.php on line 13
+[22-Jun-2016 09:54:21 PRC] PHP Notice:  Undefined index: count in /home/www/workspace/websocketServer/controllers/A.php on line 14
+[26-Jun-2016 13:16:24 PRC] PHP Fatal error:  Call to undefined function core\printr() in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 68
+[26-Jun-2016 13:20:19 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:20:24 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:20:51 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:20:56 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:21:01 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:22:06 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 136
+[26-Jun-2016 13:29:15 PRC] PHP Fatal error:  Class 'controllers\Command' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 135
+[26-Jun-2016 13:36:35 PRC] PHP Notice:  Undefined variable: frame in /home/www/workspace/websocketServer/controllers/Command.php on line 12
+[26-Jun-2016 13:36:35 PRC] PHP Notice:  Trying to get property of non-object in /home/www/workspace/websocketServer/controllers/Command.php on line 12
+[26-Jun-2016 15:50:52 PRC] PHP Notice:  Undefined property: stdClass::$topic in /home/www/workspace/websocketServer/controllers/Command.php on line 20
+[27-Jun-2016 15:02:26 PRC] PHP Fatal error:  Class 'connector\Topic' not found in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 52
+[27-Jun-2016 15:02:46 PRC] PHP Notice:  Undefined variable: mongoManager in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 52
+[27-Jun-2016 15:02:46 PRC] PHP Fatal error:  Cannot access empty property in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 52
+[27-Jun-2016 15:03:33 PRC] PHP Notice:  Undefined variable: mongoManager in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 52
+[27-Jun-2016 15:03:33 PRC] PHP Fatal error:  Cannot access empty property in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 52
+[27-Jun-2016 15:04:47 PRC] PHP Fatal error:  Class 'connector\MongoDB\Driver\Query' not found in /home/www/workspace/websocketServer/connector/Topic.php on line 19
+[27-Jun-2016 15:06:03 PRC] PHP Fatal error:  Class 'connector\MongoDB\Driver\ReadPreference' not found in /home/www/workspace/websocketServer/connector/Topic.php on line 21
+[27-Jun-2016 15:06:25 PRC] PHP Fatal error:  Call to undefined method connector\Mongo::executeQuery() in /home/www/workspace/websocketServer/connector/Topic.php on line 22
+[27-Jun-2016 16:18:16 PRC] PHP Notice:  Trying to get property of non-object in /home/www/workspace/websocketServer/core/WebsocketServer.php on line 66
+[28-Jun-2016 09:54:25 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/workspace/websocketServer/controllers/Message.php on line 19
+[30-Jun-2016 17:08:41 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/workspace/websocketServer/controllers/Message.php on line 19
+[30-Jun-2016 17:08:50 PRC] PHP Warning:  Invalid argument supplied for foreach() in /home/www/workspace/websocketServer/controllers/Message.php on line 19
+[08-Jul-2016 10:47:59 PRC] PHP Fatal error:  Class 'controllers\MongoDB\Driver\BulkWrite' not found in /home/www/workspace/websocketServer/controllers/Command.php on line 37
+[08-Jul-2016 10:48:49 PRC] PHP Fatal error:  Class 'controllers\MongoDB\Driver\WriteConcern' not found in /home/www/workspace/websocketServer/controllers/Command.php on line 40
+[08-Jul-2016 10:49:16 PRC] PHP Fatal error:  Call to undefined method connector\Mongo::executeBulkWrite() in /home/www/workspace/websocketServer/controllers/Command.php on line 42
+[08-Jul-2016 14:58:41 PRC] PHP Notice:  Undefined variable: mongo in /home/www/workspace/websocketServer/controllers/Command.php on line 44
+[08-Jul-2016 14:58:41 PRC] PHP Fatal error:  Call to a member function executeQuery() on null in /home/www/workspace/websocketServer/controllers/Command.php on line 44

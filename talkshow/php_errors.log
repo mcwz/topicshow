@@ -1,0 +1,6 @@
+[15-Jun-2016 10:53:02 PRC] PHP Fatal error:  Call to a member function insert() on null in /home/www/workspace/talkshow/application/controllers/Welcome.php on line 26
+[21-Jun-2016 15:10:56 PRC] PHP Fatal error:  Call to undefined function base_url() in /home/www/workspace/talkshow/application/views/common/header.php on line 6
+[22-Jun-2016 08:56:48 PRC] PHP Parse error:  syntax error, unexpected '*' in /home/www/workspace/talkshow/application/controllers/Users.php on line 21
+[24-Jun-2016 09:52:40 PRC] PHP Parse error:  syntax error, unexpected 'click' (T_STRING) in /home/www/workspace/talkshow/application/views/users/signup.php on line 21
+[30-Jun-2016 14:31:34 PRC] PHP Fatal error:  Call to a member function result() on null in /home/www/workspace/talkshow/application/views/manage/topic/list.php on line 15
+[30-Jun-2016 14:59:38 PRC] PHP Fatal error:  Class 'MongoId' not found in /home/www/workspace/talkshow/application/controllers/manage/Topic.php on line 21

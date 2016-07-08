@@ -1,0 +1,195 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html { overflow-y: hidden; height: 100%; box-sizing: border-box;}
+body{background-color: #eff0f4;height: 100%;}
+
+.header{height:34px;width: 100%;background-color: #FFF;position: fixed;background: #65CEA7;}
+.main_topic{height: 100%;padding-top:44px;width: 500px;box-sizing: border-box;float: left;}
+.second_topic{height: 100%;padding-top:44px;width: 500px;box-sizing: border-box; float: left;}
+.finally_list{height: 100%;padding-top:44px;width: 400px;box-sizing: border-box; float: left;}
+
+.talk_box{width: 96%;margin: 0 auto;background-color: #FFF;height: 100%;position: relative;}
+
+
+.talk_box div.title{height: 40px;line-height: 40px;border-bottom: 1px dotted #CCC;
+    font-size: 14px;text-indent:1em;}
+.talk_box div.talk{height: 60px;width: 100%;position: absolute;bottom: 0px;}
+
+
+.talk_box textarea.message_box{width:100%;height: 100%;outline: none;}
+
+
+
+.chats {
+    position: absolute;
+    top:40px;
+    bottom: 60px;
+    margin: 0;
+    overflow-y: scroll;
+
+}
+.chats li {
+    list-style: none;
+    padding: 8px 0 5px;
+    margin: 7px auto;
+    font-size: 12px;
+}
+.chats li.in img.avatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.chats li img.avatar {
+    height: 45px;
+    width: 45px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+img {
+    vertical-align: middle;
+}
+.cool-chat li.in .message {
+    background: #65CEA7;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.chats li.in .message {
+    text-align: left;
+    margin-left: 65px;
+}
+.chats li .message {
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+.cool-chat li.in .message .arrow {
+    border-right: 8px solid #65CEA7;
+}
+.chats li.in .message .arrow {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.cool-chat li.in .message a.name, .cool-chat li.in .message .datetime {
+    color: #fff;
+}
+.cool-chat li.in .message a.name {
+    font-weight: bold;
+}
+.chats li .name {
+    font-size: 13px;
+    font-weight: 400;
+}
+.chats li .message .body {
+    display: block;
+}
+
+.logo_menu{height: 34px;position: relative;}
+.logo{height: 34px;float: left;width: 200px;position: absolute;left: 0;top: 0;}
+.menu{height: 34px;float: left;width: 100%;padding-left: 200px;box-sizing: border-box;}
+.menu ul{margin: 0;padding: 0;}
+.menu li{height: 34px;line-height: 34px;display: inline-block;}
+.menu li a{padding: 5px;color:#fff;}
+
+
+.subtopic_list{width: 96%;margin:0 auto;padding: 0}
+.subtopic_list li{list-style-type: none;line-height: 30px;cursor: pointer;background: #EEE;border-bottom: 1px solid #FFF;padding:5px; }
+.subtopic_chat{position: relative;bottom: 0;position: absolute;
+    top: 240px;
+    bottom: 0;
+    height: auto;
+    width: 100%;}
+.notop{top:0;width: 100%;}
+
+
+
+/*---滚动条默认显示样式--*/  
+::-webkit-scrollbar-thumb{  
+   background-color:#65CEA7;  
+   height:50px;  
+   outline-offset:-2px;  
+   outline:2px solid #fff;  
+   -webkit-border-radius:4px;  
+   border: 2px solid #fff;  
+}  
+/*---鼠标点击滚动条显示样式--*/  
+::-webkit-scrollbar-thumb:hover{  
+   background-color:#6566A7;  
+   height:50px;  
+   -webkit-border-radius:4px;  
+}  
+/*---滚动条大小--*/  
+::-webkit-scrollbar{  
+   width:8px;  
+   height:8px;  
+}  
+/*---滚动框背景样式--*/  
+::-webkit-scrollbar-track-piece{  
+   background-color:#fff;  
+   -webkit-border-radius:0;  
+}
